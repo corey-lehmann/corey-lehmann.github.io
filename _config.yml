@@ -119,7 +119,7 @@ author:
       icon: fab fa-linkedin
     - title: Kaggle
       url: https://www.kaggle.com/clehmann10
-      icon: fas fa-k
+      icon: fab fa-kickstarter
 # Footer Links
 footer_links:
     - title: Github
@@ -130,5 +130,4 @@ footer_links:
       icon: fab fa-linkedin
     - title: Kaggle
       url: https://www.kaggle.com/clehmann10
-      icon: fas fa-k
-
+      icon: fab fa-kickstarter

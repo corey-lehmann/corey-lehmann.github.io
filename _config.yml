@@ -51,15 +51,15 @@ feed:
   path: atom.xml
 
 # Pagination - https://jekyllrb.com/docs/pagination/
-# paginate: 10
-# paginate_path: /page:num/
+paginate: 10
+paginate_path: /page:num/
 
 # Search
 search_full_content: true # can have performance implications for large sites
 
 # Taxonomy pages
-# category_archive_path: "/categories/#"
-# tag_archive_path: "/tags/#"
+category_archive_path: "/categories/#"
+tag_archive_path: "/tags/#"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -79,14 +79,29 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
 
+# Collections
+collections:
+  recipes:
+    output: true
+    permalink: /:collection/:path/
+
 # Front Matter Defaults
 defaults:
-  # Posts defaults
+  # Post defaults
   - scope:
       path: "_posts"
       type: posts
     values:
       layout: post
+      comments: true
+      share: true
+  # Recipe defaults
+  - scope:
+      path: "_recipes"
+      type: recipes
+    values:
+      layout: post
+      comments: true
       share: true
 
 # Site Author
@@ -94,17 +109,17 @@ author:
   name: Corey Lehmann
   picture: \assets\images\HappyOtter.jpg
   email: clehmann10@gmail.com
-  # twitter:
+  twitter:
   links:
     - title: Github
       url: https://github.com/corey-lehmann
       icon: fab fa-github-square
     - title: LinkedIn
       url: https://www.linkedin.com/in/coreylehmann/
-      icon: fab fa-linkedin-square
+      icon: fab fa-linkedin
     - title: Kaggle
       url: https://www.kaggle.com/clehmann10
-      icon: fab fa-external-link-square
+      icon: fas fa-external-link-alt
 
 # Footer Links
 footer_links:
@@ -113,8 +128,8 @@ footer_links:
       icon: fab fa-github-square
     - title: LinkedIn
       url: https://www.linkedin.com/in/coreylehmann/
-      icon: fab fa-linkedin-square
+      icon: fab fa-linkedin
     - title: Kaggle
       url: https://www.kaggle.com/clehmann10
-      icon: fab fa-external-link-square
+      icon: fas fa-external-link-alt
 

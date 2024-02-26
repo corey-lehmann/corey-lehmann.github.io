@@ -11,8 +11,8 @@ Corey Lehmann:
       icon: fab fa-github-square
     - title: LinkedIn
       url: https://www.linkedin.com/in/coreylehmann/
-      icon: fab fa-linkedin-square
+      icon: fab fa-linkedin
     - title: Kaggle
       url: https://www.kaggle.com/clehmann10
-      icon: fab fa-external-link-square
+      icon: fas fa-external-link-alt
 

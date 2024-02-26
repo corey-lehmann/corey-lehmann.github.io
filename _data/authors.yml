@@ -4,7 +4,7 @@
 Corey Lehmann:
   name: Corey Lehmann
   picture: \assets\images\HappyOtter.jpg
-  # twitter: "@billyrick"
+  twitter:
   links:
     - title: Github
       url: https://github.com/corey-lehmann

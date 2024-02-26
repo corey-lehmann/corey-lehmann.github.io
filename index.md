@@ -1,9 +1,6 @@
 ---
-layout: page
-layout: post
+layout: home
+limit: 10
+show_excerpts: true
+entries_layout: list
 ---
-
-# Welcome!
-
-Welcome to my webpage!
-

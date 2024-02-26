@@ -1,16 +1,19 @@
 # Sample Authors
 # Remove file or replace with your own
 
-Billy Rick:
-  name: Billy Rick
-  picture: /images/bio-photo-2.jpg
-  twitter: "@billyrick"
+Corey Lehmann:
+  name: Corey Lehmann
+  picture: \assets\images\HappyOtter.jpg
+  # twitter: "@billyrick"
   links:
-    - title: Twitter
+    - title: Github
+      url: https://twitter.com/billyrick
+      icon: fab fa-twitter-square
+    - title: LinkedIn
+      url: https://twitter.com/billyrick
+      icon: fab fa-twitter-square
+    - title: Kaggle
       url: https://twitter.com/billyrick
       icon: fab fa-twitter-square
 
-Cornelius Fiddlebone:
-  name: Cornelius Fiddlebone
-  picture: /images/bio-photo.jpg
-  twitter: corneliusfiddlebone
+

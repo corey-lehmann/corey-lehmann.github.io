@@ -7,13 +7,12 @@ Corey Lehmann:
   # twitter: "@billyrick"
   links:
     - title: Github
-      url: https://twitter.com/billyrick
-      icon: fab fa-twitter-square
+      url: https://github.com/corey-lehmann
+      icon: fab fa-github-square
     - title: LinkedIn
-      url: https://twitter.com/billyrick
-      icon: fab fa-twitter-square
+      url: https://www.linkedin.com/in/coreylehmann/
+      icon: fab fa-linkedin-square
     - title: Kaggle
-      url: https://twitter.com/billyrick
-      icon: fab fa-twitter-square
-
+      url: https://www.kaggle.com/clehmann10
+      icon: fab fa-external-link-square
 

@@ -1,4 +1,4 @@
-remote_theme: mmistakes/so-simple-theme
+remote_theme: "mmistakes/so-simple-theme@3.2.0"
 skin: "assets/css/skins/light.css"
 
 # Site Settings
@@ -27,7 +27,7 @@ google_fonts:
 # Site Author
 author:
   name             : "Corey Lehmann"
-  # picture          : "/assets/images/yo2.png"
+  picture          : "\assets\images\HappyOtter.jpg"
   email            : "clehmann10@gmail.com"
   links:
   - title: GitHub

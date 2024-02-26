@@ -55,7 +55,7 @@ paginate: 10
 paginate_path: /page:num/
 
 # Search
-search_full_content: true # can have performance implications for large sites
+search_full_content: false # can have performance implications for large sites
 
 # Taxonomy pages
 category_archive_path: "/categories/#"
@@ -81,7 +81,7 @@ plugins:
 
 # Collections
 collections:
-  recipes:
+  projects:
     output: true
     permalink: /:collection/:path/
 
@@ -95,10 +95,10 @@ defaults:
       layout: post
       comments: true
       share: true
-  # Recipe defaults
+  # Projects defaults
   - scope:
-      path: "_recipes"
-      type: recipes
+      path: "_projects"
+      type: projects
     values:
       layout: post
       comments: true
@@ -119,7 +119,7 @@ author:
       icon: fab fa-linkedin
     - title: Kaggle
       url: https://www.kaggle.com/clehmann10
-      icon: fas fa-external-link-alt
+      icon: fab fa-kaggle
 
 # Footer Links
 footer_links:
@@ -131,5 +131,5 @@ footer_links:
       icon: fab fa-linkedin
     - title: Kaggle
       url: https://www.kaggle.com/clehmann10
-      icon: fas fa-external-link-alt
+      icon: fab fa-kaggle
 

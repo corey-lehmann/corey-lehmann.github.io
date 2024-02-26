@@ -107,7 +107,7 @@ defaults:
 # Site Author
 author:
   name: Corey Lehmann
-  picture: \assets\images\HappyOtter.jpg
+  picture: /assets/images/HappyOtter.jpg
   email: clehmann10@gmail.com
   twitter:
   links:

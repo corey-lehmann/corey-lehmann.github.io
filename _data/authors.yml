@@ -3,7 +3,7 @@
 
 Corey Lehmann:
   name: Corey Lehmann
-  picture: \assets\images\HappyOtter.jpg
+  picture: /assets/images/HappyOtter.jpg
   twitter:
   links:
     - title: Github

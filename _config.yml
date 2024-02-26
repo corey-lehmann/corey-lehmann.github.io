@@ -36,7 +36,7 @@ google_fonts:
     weights: "400,400i,700,700i"
 google_analytics: # Google Analytics id, e.g. "UA-NNNNNNNN-N"
 disqus:
-  shortname: # Disqus shortname, e.g. "my_disqus_shortname"
+  shortname: corey-lehmann # Disqus shortname, e.g. "my_disqus_shortname"
 twitter:
   username: # site's Twitter username, e.g. "mmistakes"
 
@@ -107,7 +107,7 @@ defaults:
 # Site Author
 author:
   name: Corey Lehmann
-  picture: /assets/images/HappyOtter.jpg
+  picture: /assets/images/Otter150x150.jpg
   email: clehmann10@gmail.com
   twitter:
   links:

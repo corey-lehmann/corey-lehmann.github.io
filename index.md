@@ -5,3 +5,5 @@ show_excerpts: true
 paginate: true
 entries_layout: list
 ---
+
+This is text for the Index

@@ -1,5 +1,5 @@
 ---
-title: "Project 1"
+title: "Kaggle - HMS EEG Classification"
 # image: 
 #   path: /images/chocolate-chip-cookies-lg.jpg
 #   thumbnail: /images/chocolate-chip-cookies-400x200.jpg
